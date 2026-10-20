@@ -1,0 +1,7 @@
+name: Unverified publisher fixture
+description: Harmless action for policy testing
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "ERROR: the unverified action was permitted"
